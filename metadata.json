@@ -1,0 +1,6 @@
+{
+  "name": "CLAPSY",
+  "description": "Plataforma digital premium para el alivio del bruxismo, estrés y mejora del sueño.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

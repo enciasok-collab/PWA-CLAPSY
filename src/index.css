@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-olive: #5A6E5D;
+  --color-brand-olive-dark: #3F5042;
+  --color-brand-brown: #9A8C81;
+  --color-brand-beige: #F4F1EA;
+  --color-brand-beige-light: #FAF8F5;
+  --color-brand-gold: #C5A880;
+  --color-brand-gold-dark: #A98A5F;
+  --color-brand-charcoal: #2E2E2A;
+  
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Custom scrollbar and ambient visual styles for a premium medical-wellness feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A880;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A98A5F;
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #2E2E2A;
+  font-family: var(--font-sans);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #A98A5F 0%, #D4AF37 50%, #C5A880 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shadow-premium {
+  box-shadow: 0 4px 20px -2px rgba(90, 110, 93, 0.08), 0 2px 8px -1px rgba(154, 140, 129, 0.05);
+}
+
+.shadow-premium-lg {
+  box-shadow: 0 10px 30px -4px rgba(90, 110, 93, 0.12), 0 4px 12px -2px rgba(154, 140, 129, 0.08);
+}
